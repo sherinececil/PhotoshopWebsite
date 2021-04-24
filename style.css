@@ -1,0 +1,155 @@
+body {
+  margin: 2%;
+}
+
+.container1 {
+  background-image: url("bgk-header.png");
+  min-height: 60vh;
+  display: flex;
+}
+.header {
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  flex-direction: row;
+  align-content: center;
+}
+
+li {
+  display: inline-flex;
+  align-items: space-between;
+  padding: 5px;
+}
+.boxleft {
+  height: 10vh;
+  display: inline-flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+.container1 .box1 {
+  max-width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* second content line*/
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
+@media (min-width: 800px) {
+  .container2 {
+    flex-direction: row;
+  }
+}
+.logo-big {
+  margin-right: 3em;
+  padding: 2em;
+}
+.box2 {
+  flex: 1;
+  padding: 1em;
+  border-radius: 3px;
+  max-width: 24em;
+}
+.box2-heading {
+  margin: 0 0 0.5em;
+}
+/* third content Line*/
+.container3 {
+  background-image: url("bgk-middle.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+}
+.box4 {
+  padding: 25px;
+  display: block;
+  text-align: center;
+  box-shadow: 0px 0px 0px 0.1px grey inset;
+}
+/* BGK footer Line Content*/
+.container5 {
+  background-image: url("bgk-footer.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+.head5 {
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  min-height: 90vh;
+}
+@media (min-width: 400px) {
+  .container6 {
+    flex-direction: column;
+  }
+}
+
+.head6a {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: Center;
+  width: 50%;
+  margin-right: 1em;
+  /*align-content: center;*/
+  padding: 2em;
+}
+
+.head6b {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: Center;
+}
+input[type="text"] {
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: white;
+  color: rgb(98, 240, 240);
+  padding: 12px 20px;
+  border: 1px solid rgb(84, 192, 228);
+  float: left;
+}
+table.test td {
+  margin: 12px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
+}
+
+.container7 {
+  background-image: url("bgk-footer.png");
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: space-around;
+  align-items: ceneter;
+  height: 60vh;
+}
+.head7 p {
+  max-width: 15em;
+  align-items: flex-start;
+}
